@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="preload" href="/renders/maps.json" as="fetch">
+		<link rel="stylesheet" type="text/css" href="common.css" />
+		<link rel="stylesheet" type="text/css" href="assets/fontawesome/css/svg-with-js.css" />
+		<script src="assets/fontawesome/js/all.js" data-auto-add-css="false"></script>
+		<link rel="canonical" href="https://shiptest.net/maps" />
+		<meta name="description" content="A fork of Space Station 13 centering around ships and exploration."></meta>
+		<meta name="keywords" content="Space Station 13, Shiptest"></meta>
+		<meta name="author" content="Mark Suckerberg"></meta>
+		<meta name="viewport" content="width=device-width, intial-scale=1"></meta>
+		<meta charset="UTF8"></meta>
+		<!-- OpenGraph Meta Tags -->
+		<meta property="og:site_name" content="Shiptest">
+		<meta property="og:title" content="Shiptest Map Viewer">
+		<meta property="og:description" content="A basic map viewer.">
+		<meta property="og:image" content="https://shiptest.net/images/overmap.png">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://shiptest.net/maps">
+
+		<title>Shiptest - Maps</title>
+	</head>
+	<body>
+		<div class="layer1"></div>
+		<div class="layer2"></div>
+		<div class="layer3"></div>
+		<main style="background-color: #272727;" id="main" class="mainbox">
+			<ul class="topnav">
+				<li><a href="/"><i class="fas fa-home"></i> Home</i></a></li>
+				<li><a href="byond://join.shiptest.net:41372"><i class="fas fa-rocket"></i> Join</i></a></li>
+				<li><a href="/stats"><i class="fas fa-chart-line"></i> Stats</i></a></li>
+				<li><a href="https://github.com/shiptest-ss13/Shiptest"><i class="fab fa-github"></i> Github</a></li>
+				<li><a href="https://codedocs.shiptest.net"><i class="fas fa-book"></i> Codedocs</a></li>
+				<li><a href="/wiki"><i class="fab fa-wikipedia-w"></i> Wiki</a></li>
+				<li><a href="https://hackmd.io/@shiptest"><i class="fas fa-edit"></i> HackMD</a></li>
+				<li><a href="https://status.shiptest.net"><i class="fas fa-exclamation-circle"></i> Status</i></a></li>
+				<li><a class="active" href="/maps"><i class="fas fa-map-marked-alt"></i> Maps</i></a></li>
+				<li class="right"><a href="/discord"><i class="fab fa-discord"></i> Discord</a></li>
+			</ul>
+
+			<h1 id="shiptest-13">Maps</h1>
+			<script src="get_map.js"></script>
+		</main>
+	</body>
+</html>
