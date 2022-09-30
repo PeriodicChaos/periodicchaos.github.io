@@ -38,7 +38,8 @@
 .mainbox {
     background-color: #272727;
     text-align: center;
-    margin: -1.2% 0%;
+    width: 40%;
+    margin: -1.2% 29%;
     padding-bottom: 0.4rem;
 }
 ul.topnav {
@@ -48,6 +49,7 @@ ul.topnav {
     margin: 0;
     position: sticky;
     overflow: hidden;
+    border-top: 20px solid #313131;
     border-bottom: 1px solid #161616;
     background: #313131;
 }
@@ -61,7 +63,7 @@ ul.topnav li a {
     font-size: 16px;
     background: #26394ed5;
     border: 3px solid #1a19196c;
-    padding: 5px 30px;
+    padding: 3px 20px;
     margin: 0 1px;
 }
 ul.topnav li a:hover {
